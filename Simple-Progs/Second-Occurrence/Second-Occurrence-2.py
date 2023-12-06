@@ -1,4 +1,4 @@
-# put your python code here
+# Другая версия (концовка более сложная)
 
 s = input()
 
