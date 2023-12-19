@@ -20,6 +20,6 @@ n = int(input())
 result_list = []    # создаем заготовку результирующего списка
 
 for _ in range(n):
-    result_list = pop_merge(result_list, [int(c) for c in input().split()])  # формируем отсортированный список из n списков
+    result_list = pop_merge(result_list, [int(c) for c in input().split()])  # в этот раз сразу формируем отсортированный список из n списков
 
 print(*result_list)     # выводим результат
