@@ -1,6 +1,6 @@
 from random import randint
 import time     # импорт библиотеки для анализа времени работы программы
-start = time.time()
+start = time.time()     # стартовая точка отсчета
 
 
 def quick_merge(list1, list2):      # функция 1
@@ -65,7 +65,7 @@ for _ in range(n):
 print(*result_list)     # вывод результирующего списка
 
 
-end = time.time() - start
+end = time.time() - start        # конечная точка
 print('\n', end)        # вывод полученного результата времени
 
 # Анализ результатов:
