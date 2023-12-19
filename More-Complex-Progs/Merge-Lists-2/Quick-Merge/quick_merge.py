@@ -1,4 +1,3 @@
-# put your python code here
 def quick_merge(list1, list2):      # функция для объединения двух списков в отсортированный список
     result = []
     i, j = 0, 0
