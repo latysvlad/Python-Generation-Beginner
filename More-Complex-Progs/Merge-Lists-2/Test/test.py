@@ -54,13 +54,13 @@ def sort_merge(list1, list2):       # функция 4
 
 
 minlen, maxlen = 50000, 50000    # обозначение интервала для выбора длины списков - для упрощения анализа границы одинаковые
-minval, maxval = 1, 100000       # интервал выбора значений для списков
+minval, maxval = 1, 100000       # интервал выбора значений элементов списков
 n = 5                            # количество списков
 result_list = []
 
 for _ in range(n):
     length = randint(minlen, maxlen)
-    result_list = sort_merge(result_list, sorted([randint(minval, maxval) for __ in range(length)]))   # создание n списков чисел
+    result_list = sort_merge(result_list, sorted([randint(minval, maxval) for __ in range(length)]))   # создание и сразу же сортировка n списков чисел
 
 print(*result_list)     # вывод результирующего списка
 
