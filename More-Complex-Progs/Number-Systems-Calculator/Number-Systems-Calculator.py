@@ -1,37 +1,45 @@
 def convert_to_decimal(num, base):
     tot = 0
     grade = 0
+    
     if base > 10:
         flag = True
     else:
         flag = False
+        
     while num:
         el = num[-1]
         if flag and el not in "0123456789":
             el = base_above_decimal_to(el)
         else:
             el = int(el)
+            
         tot += el * base ** grade
         grade += 1
         num = num[:-1]
+        
     return tot
 
 
 def convert_from_decimal(num, base):
     result = []
+    
     if base > 10:
         flag = True
     else:
         flag = False
+        
     while True:
         el = num % base
         if flag and el > 9:
             el = base_above_decimal_from(el)
         result.append(str(el))
+        
         if num == num % base:
             break
         else:
             num //= base
+            
     result.reverse()
     return "".join(result)
 
