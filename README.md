@@ -1,6 +1,7 @@
 # Python-Generation-Beginner
 
 "Поколение Python": курс для начинающих
+
 <img class="course-card__cover" alt="Course cover" src="https://cdn.stepik.net/media/cache/images/courses/58852/cover_VKXNCa8/1041d1e78ecc504952ef0058071ef02c.png">
 
 Выданный сертификат о прохождении:
