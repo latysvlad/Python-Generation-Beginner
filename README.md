@@ -2,7 +2,9 @@
 
 "Поколение Python": курс для начинающих
 <p align="center">
-<img class="course-card__cover" alt="Course cover" src="https://cdn.stepik.net/media/cache/images/courses/58852/cover_VKXNCa8/1041d1e78ecc504952ef0058071ef02c.png">
+    <a href="https://stepik.org/course/58852?search=3211567297">
+        <img src="https://cdn.stepik.net/media/cache/images/courses/58852/cover_VKXNCa8/1041d1e78ecc504952ef0058071ef02c.png">
+    </a>
 </p>
 
 Выданный сертификат о прохождении:
