@@ -15,4 +15,6 @@
     </a>
 </p>
 
-https://stepik.org/cert/2147523?lang=en
+<p align="center">
+    https://stepik.org/cert/2147523?lang=en
+</p>
